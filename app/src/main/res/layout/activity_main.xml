@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BlackSpotify"
+    android:id="@+id/rootLayout"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:text="@string/company_name"
+            android:textSize="36sp"
+            android:textAlignment="center"
+            android:textColor="@color/company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="PARTNER"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/GreySpotify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_tow_truck_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="LOOKING FOR THE TOW TRUCK APP ?"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:textColor="@color/GreySpotify"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:weightSum="2"
+        android:layout_above="@id/txt_tow_truck_app"
+        android:layout_margin="16dp">
+
+        <Button
+
+            android:id="@+id/btn_sign_in"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_sign_in_background"
+            android:text="@string/sign_in"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/BlackSpotify" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_sign_in_background"
+            android:text="@string/register"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/BlackSpotify" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

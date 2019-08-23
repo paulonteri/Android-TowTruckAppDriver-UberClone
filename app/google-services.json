@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "24117339005",
+    "firebase_url": "https://towtruck-app-ont.firebaseio.com",
+    "project_id": "towtruck-app-ont",
+    "storage_bucket": "towtruck-app-ont.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24117339005:android:73fbab0afb06865f",
+        "android_client_info": {
+          "package_name": "onteri.com.towtruckapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24117339005-4im6q6nvab28kmosc5cqloue63nobned.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "onteri.com.towtruckapp",
+            "certificate_hash": "f76c24e1113b30d9451305fd8bad419f8edcffb5"
+          }
+        },
+        {
+          "client_id": "24117339005-av394musjfcdedgjffiku75pneaae69c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwKghqxL207tuCA-p0O7Dau0eIKuOmyf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24117339005-av394musjfcdedgjffiku75pneaae69c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

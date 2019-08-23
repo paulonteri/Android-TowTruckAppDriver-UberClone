@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#191919</color>
+    <color name="colorPrimaryDark">#070716</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="BlackSpotify">#191919</color>
+    <color name="GreySpotify">#9D9D9D</color>
+    <color name="ripple_effect_color">#f816a463</color>
+    <color name="btnSignIn">#00A5E4</color>
+    <color name="btnRegister">#86868c</color>
+    <color name="company">#e8e8e8</color>
+
+
+
+</resources>

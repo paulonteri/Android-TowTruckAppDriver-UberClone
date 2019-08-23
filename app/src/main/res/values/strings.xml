@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tow Truck App</string>
+    <string name="company_name">TOW TRUCK APP</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="register">REGISTER</string>
+    <string name="email_hint">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_phone">Phone</string>
+</resources>
